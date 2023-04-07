@@ -1,7 +1,16 @@
 /* Navbar */
 .navbar ul{
-    flex-wrap: wrap;
-     
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.navbar ul li a{
+    padding: 2px 8px;
+}
+
+.navbar li a{
+    font-size: 10px;
+    padding: 2px;
 }
 
 /* Headings */
@@ -16,12 +25,22 @@
 }
 
 #pic img{
-    width: 475px;
-    height: 300px;
+    height: 550px;
+    width: 415px;
+    padding: 20px;
 }
 
 #intro h2{
+    margin-top: 15px;
     text-align: center;
+    padding: 10px;
+}
+#intro p{
+    padding: 10px
+}
+
+#headings{
+    font-size: 40px;
     padding: 10px;
 }
 

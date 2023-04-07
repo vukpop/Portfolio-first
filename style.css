@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,10 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
@@ -24,7 +31,6 @@ html{
 }
 
 .navbar ul li{
-    font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -75,7 +81,6 @@ html{
 }
 
 .headings{
-    font-family: century;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
@@ -85,9 +90,11 @@ html{
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid white;
+    border-radius: 1rem;
     color: white;
     outline: none;
     transition: .6s ease;
+    width: 200px;
 }
 .btn:hover{
     cursor: pointer;
@@ -104,7 +111,9 @@ html{
     border: 1px solid white;
     color: white;
     outline: none;
+    border-radius: 1rem;
     transition: .6s ease;
+    width:200px;
 }
 .linkdln:hover{
     cursor: pointer;
@@ -120,7 +129,7 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 50px;
 }
 
@@ -129,12 +138,15 @@ html{
 }
 
 #pic img{
-    width: 575px;
-    height: 400px;
+    /* width: 575px;
+    height: 400px; */
+    min-height: fit-content;
+    max-height: 700px;
     border-radius: 50px;
 }
 
 #intro{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -144,8 +156,12 @@ html{
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
+#intro p{
+    padding: 20px
+}
 /* Portfolio Section */
 #portfolio{
     display: flex;
@@ -227,14 +243,23 @@ html{
     background-color: cadetblue;
     color: white;
     padding: 20px;
+    text-decoration: none;
+    padding-bottom: 100px;
+    min-height: fit-content;
 }
 
-.form{
+#contact ul, li{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.links a{
+    color:rgb(255,255,255);
+    text-decoration: none;
 }
 
 .input{
